@@ -1,0 +1,23 @@
+#include "Company.h"
+
+
+Company::Company(string name, string Driverfile, string Linefile){
+  
+}
+
+////////////////////////////////
+// metodos get
+///////////////////////////////
+string Company::getName() const{
+  return name;
+}
+
+//////////////////////////////
+// metodos set
+/////////////////////////////
+
+////////////////////////////
+// outros metodos
+///////////////////////////
+void Company::Servicedistributor(){
+}

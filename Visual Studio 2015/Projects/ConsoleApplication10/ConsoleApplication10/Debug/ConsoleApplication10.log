@@ -1,0 +1,6 @@
+﻿  Viagens.cpp
+c:\users\eu\documents\visual studio 2015\projects\consoleapplication10\consoleapplication10\viagens.cpp(4): error C2512: 'Data': no appropriate default constructor available
+  c:\users\eu\documents\visual studio 2015\projects\consoleapplication10\consoleapplication10\data.h(7): note: see declaration of 'Data'
+  Fornecedor.cpp
+  Data.cpp
+  Generating Code...

@@ -1,0 +1,6 @@
+﻿  Source.cpp
+c:\users\eu\documents\visual studio 2015\projects\consoleapplication8\consoleapplication8\source.cpp(30): error C2065: 'v2': undeclared identifier
+c:\users\eu\documents\visual studio 2015\projects\consoleapplication8\consoleapplication8\source.cpp(30): error C2228: left of '.begin' must have class/struct/union
+  c:\users\eu\documents\visual studio 2015\projects\consoleapplication8\consoleapplication8\source.cpp(30): note: type is 'unknown-type'
+c:\users\eu\documents\visual studio 2015\projects\consoleapplication8\consoleapplication8\source.cpp(30): error C2228: left of '.end' must have class/struct/union
+  c:\users\eu\documents\visual studio 2015\projects\consoleapplication8\consoleapplication8\source.cpp(30): note: type is 'unknown-type'

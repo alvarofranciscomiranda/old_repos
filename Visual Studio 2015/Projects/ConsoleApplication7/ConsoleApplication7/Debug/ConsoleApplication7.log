@@ -1,0 +1,5 @@
+﻿  Source.cpp
+c:\users\eu\documents\visual studio 2015\projects\consoleapplication7\consoleapplication7\source.cpp(99): warning C4715: 'funcao2': not all control paths return a value
+c:\users\eu\documents\visual studio 2015\projects\consoleapplication7\consoleapplication7\source.cpp(152): warning C4715: 'funcao3': not all control paths return a value
+  ConsoleApplication7.vcxproj -> C:\Users\Eu\documents\visual studio 2015\Projects\ConsoleApplication7\Debug\ConsoleApplication7.exe
+  ConsoleApplication7.vcxproj -> C:\Users\Eu\documents\visual studio 2015\Projects\ConsoleApplication7\Debug\ConsoleApplication7.pdb (Full PDB)

@@ -1,0 +1,8 @@
+﻿  Source.cpp
+c:\users\eu\documents\visual studio 2015\projects\consoleapplication6\consoleapplication6\source.cpp(336): warning C4018: '<': signed/unsigned mismatch
+c:\users\eu\documents\visual studio 2015\projects\consoleapplication6\consoleapplication6\source.cpp(346): warning C4018: '<': signed/unsigned mismatch
+c:\users\eu\documents\visual studio 2015\projects\consoleapplication6\consoleapplication6\source.cpp(354): warning C4018: '<': signed/unsigned mismatch
+c:\users\eu\documents\visual studio 2015\projects\consoleapplication6\consoleapplication6\source.cpp(371): warning C4018: '<': signed/unsigned mismatch
+c:\users\eu\documents\visual studio 2015\projects\consoleapplication6\consoleapplication6\source.cpp(379): warning C4018: '<': signed/unsigned mismatch
+  ConsoleApplication6.vcxproj -> c:\users\eu\documents\visual studio 2015\Projects\ConsoleApplication6\Debug\ConsoleApplication6.exe
+  ConsoleApplication6.vcxproj -> c:\users\eu\documents\visual studio 2015\Projects\ConsoleApplication6\Debug\ConsoleApplication6.pdb (Full PDB)
