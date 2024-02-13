@@ -1,0 +1,20 @@
+<testsuites>
+	<testsuite name="AllTests" tests="6">
+		<testcase classname="AllTests" name="testNP_BF"/>
+		<testcase classname="AllTests" name="testNP_DC">
+			<failure message="..\src\Test.cpp:123 testNP: dmin == res.dmin with error 0.01 expected:	11841.3	but was:	89849.9	">
+testNP: dmin == res.dmin with error 0.01 expected:	11841.3	but was:	89849.9	
+			</failure>
+		</testcase>
+		<testcase classname="AllTests" name="testNP_DC_2Threads">
+			<failure message="..\src\Test.cpp:123 testNP: dmin == res.dmin with error 0.01 expected:	11841.3	but was:	89849.9	">
+testNP: dmin == res.dmin with error 0.01 expected:	11841.3	but was:	89849.9	
+			</failure>
+		</testcase>
+		<testcase classname="AllTests" name="testNP_DC_4Threads">
+			<failure message="..\src\Test.cpp:123 testNP: dmin == res.dmin with error 0.01 expected:	11841.3	but was:	89849.9	">
+testNP: dmin == res.dmin with error 0.01 expected:	11841.3	but was:	89849.9	
+			</failure>
+		</testcase>
+		<testcase classname="AllTests" name="testNP_DC_8Threads">
+			<failure message="..\src\Test.cpp:123 testNP: dmin == res.dmin with error 0.01 expected:	11841.3	but was:	89849.9	

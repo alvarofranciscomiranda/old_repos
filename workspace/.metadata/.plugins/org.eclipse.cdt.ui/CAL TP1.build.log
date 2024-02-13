@@ -1,0 +1,13 @@
+16:32:55 **** Incremental Build of configuration Debug for project CAL TP1 ****
+Info: Internal Builder is used for build
+g++ -o "CAL TP1.exe" "src\\Test.o" Test.o Sum.o Partitioning.o Factorial.o Change.o 
+Test.o: In function `Z11runAllTestsiPPKc':
+C:\Users\Eu\workspace\CAL TP1\Debug/../Test.cpp:66: multiple definition of `runAllTests(int, char const**)'
+src\Test.o:C:\Users\Eu\workspace\CAL TP1\Debug/../src/Test.cpp:10: first defined here
+Test.o: In function `main':
+C:\Users\Eu\workspace\CAL TP1\Debug/../Test.cpp:79: multiple definition of `main'
+src\Test.o:C:\Users\Eu\workspace\CAL TP1\Debug/../src/Test.cpp:21: first defined here
+collect2.exe: error: ld returned 1 exit status
+
+16:32:55 Build Finished (took 485ms)
+

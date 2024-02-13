@@ -1,0 +1,8 @@
+23:53:38 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+g++ -o Project.exe "src\\graphviewer.o" "src\\connection.o" "src\\PossibleDestinies.o" "src\\Period.o" "src\\Interface.o" "src\\ImportInfo.o" "src\\ExportInfor.o" "src\\Destiny.o" "src\\Date.o" "src\\Coordinates.o" "src\\Clients.o" "src\\Algorithms.o" "src\\Agency.o" "src\\Accommodation.o" -lWsock32 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+
+23:53:38 Build Finished (took 444ms)
+

@@ -1,0 +1,27 @@
+19:40:59 **** Incremental Build of configuration Debug for project CalFp04 ****
+Info: Internal Builder is used for build
+g++ -std=c++1y "-IC:\\Users\\Eu\\workspace\\CalFp04\\cute" "-IC:\\Users\\Eu\\workspace\\CalFp04\\boost" -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o "src\\Test.o" "..\\src\\Test.cpp" 
+In file included from ..\src\Test.cpp:5:0:
+..\src\Graph.h: In member function 'std::vector<_Tp> Graph<T>::topsort() const':
+..\src\Graph.h:298:20: error: redeclaration of 'std::queue<Vertex<T>*> q'
+  queue<Vertex<T>*> q;
+                    ^
+..\src\Graph.h:293:20: note: 'std::queue<Vertex<T>*> q' previously declared here
+  queue<Vertex<T>*> q;
+                    ^
+..\src\Graph.h: In instantiation of 'void Graph<T>::dfsVisit(Vertex<T>*, std::vector<_Tp>&) const [with T = Person]':
+..\src\Graph.h:217:13:   required from 'std::vector<_Tp> Graph<T>::dfs() const [with T = Person]'
+..\src\Test.cpp:93:31:   required from here
+..\src\Graph.h:231:10: error: request for member 'visited' in 'w', which is of pointer type 'Vertex<Person>*' (maybe you meant to use '->' ?)
+    if(!w.visited)
+        ~~^~~~~~~
+..\src\Graph.h:232:13: error: no matching function for call to 'Graph<Person>::dfsVisit(Edge<Person>&, std::vector<Person, std::allocator<Person> >&) const'
+     dfsVisit(e,res);
+     ~~~~~~~~^~~~~~~
+..\src\Graph.h:226:6: note: candidate: void Graph<T>::dfsVisit(Vertex<T>*, std::vector<_Tp>&) const [with T = Person]
+ void Graph<T>::dfsVisit(Vertex<T> *v, vector<T> & res) const {
+      ^~~~~~~~
+..\src\Graph.h:226:6: note:   no known conversion for argument 1 from 'Edge<Person>' to 'Vertex<Person>*'
+
+19:41:02 Build Finished (took 2s.837ms)
+

@@ -1,0 +1,20 @@
+16:09:52 **** Incremental Build of configuration Debug for project CalFp03 ****
+Info: Internal Builder is used for build
+g++ -std=c++1y "-IC:\\Users\\Eu\\workspace\\CalFp03\\cute" "-IC:\\Users\\Eu\\workspace\\CalFp03\\boost" -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o "src\\NearestPoints.o" "..\\src\\NearestPoints.cpp" 
+..\src\NearestPoints.cpp: In function 'void npByY(std::vector<Point>&, int, int, Result&)':
+..\src\NearestPoints.cpp:94:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for(int j = i + 1; j <= vp.size(); j++){
+                       ~~^~~~~~~~~~~~
+..\src\NearestPoints.cpp: In function 'Result np_DC(std::vector<Point>&, int, int, int)':
+..\src\NearestPoints.cpp:127:2: error: 'thread' was not declared in this scope
+  thread t([&](){
+  ^~~~~~
+..\src\NearestPoints.cpp:128:51: error: expected primary-expression before ')' token
+   resL = np_DC(vp, left, middle, numThreads / 2);});
+                                                   ^
+..\src\NearestPoints.cpp:130:3: error: 't' was not declared in this scope
+   t.join();
+   ^
+
+16:09:53 Build Finished (took 1s.239ms)
+

@@ -1,0 +1,22 @@
+00:55:11 **** Incremental Build of configuration Debug for project Caal Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Interface.o" "..\\src\\Interface.cpp" 
+..\src\Interface.cpp: In function 'void updateMap(Agency&)':
+..\src\Interface.cpp:277:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(size_t k = 0; k < agency.getDestinies()[i].getNumberOfDest(); k++){
+                       ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Interface.cpp: In function 'int flightReservation1(Agency&)':
+..\src\Interface.cpp:442:7: warning: variable 'dateEnd' set but not used [-Wunused-but-set-variable]
+  Date dateEnd = Date(dayE, monthE);
+       ^~~~~~~
+..\src\Interface.cpp: In function 'int flightReservation2(Agency&)':
+..\src\Interface.cpp:523:7: warning: variable 'dateEnd' set but not used [-Wunused-but-set-variable]
+  Date dateEnd = Date(dayE, monthE);
+       ^~~~~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ImportInfo.o" "..\\src\\ImportInfo.cpp" 
+g++ -o "Caal Project.exe" "src\\graphviewer.o" "src\\connection.o" "src\\PossibleDestinies.o" "src\\Period.o" "src\\Interface.o" "src\\ImportInfo.o" "src\\ExportInfor.o" "src\\Destiny.o" "src\\Date.o" "src\\Coordinates.o" "src\\Clients.o" "src\\Algorithms.o" "src\\Agency.o" "src\\Accommodation.o" -lWsock32 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Caal Project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+
+00:55:18 Build Finished (took 6s.997ms)
+

@@ -1,0 +1,91 @@
+19:41:02 **** Incremental Build of configuration Debug for project CalFp5.2 ****
+Info: Internal Builder is used for build
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o "src\\connection.o" "..\\src\\connection.cpp" 
+In file included from ..\src\connection.cpp:1:0:
+..\src\connection.h:35:3: error: 'SOCKET' does not name a type
+   SOCKET sock;
+   ^~~~~~
+..\src\connection.cpp: In constructor 'Connection::Connection(short int)':
+..\src\connection.cpp:31:3: error: 'WSADATA' was not declared in this scope
+   WSADATA wsaData;
+   ^~~~~~~
+..\src\connection.cpp:32:42: error: 'MAKEWORD' was not declared in this scope
+     int iResult = WSAStartup(MAKEWORD(2,2), &wsaData);
+                                          ^
+..\src\connection.cpp:32:46: error: 'wsaData' was not declared in this scope
+     int iResult = WSAStartup(MAKEWORD(2,2), &wsaData);
+                                              ^~~~~~~
+..\src\connection.cpp:32:53: error: 'WSAStartup' was not declared in this scope
+     int iResult = WSAStartup(MAKEWORD(2,2), &wsaData);
+                                                     ^
+..\src\connection.cpp:33:20: error: 'NO_ERROR' was not declared in this scope
+     if (iResult != NO_ERROR)
+                    ^~~~~~~~
+..\src\connection.cpp:37:5: error: 'sock' was not declared in this scope
+     sock = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
+     ^~~~
+..\src\connection.cpp:37:19: error: 'AF_INET' was not declared in this scope
+     sock = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
+                   ^~~~~~~
+..\src\connection.cpp:37:28: error: 'SOCK_STREAM' was not declared in this scope
+     sock = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
+                            ^~~~~~~~~~~
+..\src\connection.cpp:37:41: error: 'IPPROTO_TCP' was not declared in this scope
+     sock = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
+                                         ^~~~~~~~~~~
+..\src\connection.cpp:37:52: error: 'socket' was not declared in this scope
+     sock = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
+                                                    ^
+..\src\connection.cpp:38:17: error: 'INVALID_SOCKET' was not declared in this scope
+     if (sock == INVALID_SOCKET) {
+                 ^~~~~~~~~~~~~~
+..\src\connection.cpp:39:79: error: 'WSAGetLastError' was not declared in this scope
+         printf("Client: socket() - Error at socket(): %ld\n", WSAGetLastError());
+                                                                               ^
+..\src\connection.cpp:40:20: error: 'WSACleanup' was not declared in this scope
+         WSACleanup();
+                    ^
+..\src\connection.cpp:44:5: error: 'sockaddr_in' was not declared in this scope
+     sockaddr_in clientService;
+     ^~~~~~~~~~~
+..\src\connection.cpp:45:5: error: 'clientService' was not declared in this scope
+     clientService.sin_family = AF_INET;
+     ^~~~~~~~~~~~~
+..\src\connection.cpp:47:58: error: 'inet_addr' was not declared in this scope
+     clientService.sin_addr.s_addr = inet_addr("127.0.0.1");
+                                                          ^
+..\src\connection.cpp:48:40: error: 'htons' was not declared in this scope
+     clientService.sin_port = htons(port);
+                                        ^
+..\src\connection.cpp:50:24: error: 'SOCKADDR' was not declared in this scope
+     if (connect(sock, (SOCKADDR*)&clientService, sizeof(clientService)) == SOCKET_ERROR) {
+                        ^~~~~~~~
+..\src\connection.cpp:50:33: error: expected primary-expression before ')' token
+     if (connect(sock, (SOCKADDR*)&clientService, sizeof(clientService)) == SOCKET_ERROR) {
+                                 ^
+..\src\connection.cpp:50:71: error: 'connect' was not declared in this scope
+     if (connect(sock, (SOCKADDR*)&clientService, sizeof(clientService)) == SOCKET_ERROR) {
+                                                                       ^
+..\src\connection.cpp:50:76: error: 'SOCKET_ERROR' was not declared in this scope
+     if (connect(sock, (SOCKADDR*)&clientService, sizeof(clientService)) == SOCKET_ERROR) {
+                                                                            ^~~~~~~~~~~~
+..\src\connection.cpp:52:20: error: 'WSACleanup' was not declared in this scope
+         WSACleanup();
+                    ^
+..\src\connection.cpp: In member function 'bool Connection::sendMsg(std::__cxx11::string)':
+..\src\connection.cpp:58:18: error: 'sock' was not declared in this scope
+   int res = send(sock, msg.c_str(), msg.size(), 0);
+                  ^~~~
+..\src\connection.cpp:58:50: error: 'send' was not declared in this scope
+   int res = send(sock, msg.c_str(), msg.size(), 0);
+                                                  ^
+..\src\connection.cpp: In member function 'std::__cxx11::string Connection::readLine()':
+..\src\connection.cpp:69:10: error: 'sock' was not declared in this scope
+     recv(sock, &ch, 1, 0);
+          ^~~~
+..\src\connection.cpp:69:25: error: 'recv' was not declared in this scope
+     recv(sock, &ch, 1, 0);
+                         ^
+
+19:41:04 Build Finished (took 1s.87ms)
+

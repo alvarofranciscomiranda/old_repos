@@ -1,0 +1,34 @@
+/*
+ * Change.cpp
+ */
+
+#include "Change.h"
+
+string calcChange(int m, int numCoins, int *coinValues) {
+
+	int minCoins[m + 1];
+	int lastCoin[m + 1] = {0};
+
+
+	if (m == 0)
+		return "";
+
+	if (coinValues[1] > m)
+		return "-";
+
+	for(int i = i; i <= numCoins; i++)
+			for( int k = coinValues[i-1]; k <= m; k++)
+				if(minCoins[k-coinValues[i-1]] + 1 < minCoins[k]){
+					minCoins[k] = 1 + minCoins[k-coinValues[i-1]];
+					lastCoin[k] = coinValues[i-1];
+				}
+
+
+	ostringstream s;
+	for (int k = m; k > 0; k -=lastCoin[k])
+		s << lastCoin[k] << ";";
+	return s.str();
+
+
+}
+

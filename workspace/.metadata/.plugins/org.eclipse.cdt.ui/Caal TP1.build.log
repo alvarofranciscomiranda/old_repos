@@ -1,0 +1,12 @@
+16:15:48 **** Rebuild of configuration Debug for project Caal TP1 ****
+Info: Internal Builder is used for build
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o Change.o "..\\Change.cpp" 
+In file included from ..\Change.h:8:0,
+                 from ..\Change.cpp:5:
+..\Defs.h:8:18: fatal error: cute.h: No such file or directory
+ #include "cute.h"
+                  ^
+compilation terminated.
+
+16:15:49 Build Finished (took 266ms)
+

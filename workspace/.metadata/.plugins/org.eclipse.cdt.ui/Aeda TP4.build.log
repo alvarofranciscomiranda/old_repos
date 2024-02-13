@@ -1,0 +1,9 @@
+03:08:18 **** Incremental Build of configuration Debug for project Aeda TP4 ****
+Info: Internal Builder is used for build
+g++ -o "Aeda TP4.exe" "src\\parque.o" "src\\Test.o" 
+src\parque.o: In function `Z16sequentialSearchI10InfoCartaoEiRKSt6vectorIT_SaIS2_EES2_':
+C:\Users\Eu\workspace\Aeda TP4\Debug/../src/sequentialSearch.h:8: undefined reference to `InfoCartao::operator==(InfoCartao const&) const'
+collect2.exe: error: ld returned 1 exit status
+
+03:08:19 Build Finished (took 313ms)
+

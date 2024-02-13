@@ -1,0 +1,13 @@
+18:00:55 **** Incremental Build of configuration Debug for project Aeda Tp3 ****
+Info: Internal Builder is used for build
+g++ -std=c++1y "-IC:\\Users\\Eu\\workspace\\Aeda Tp3\\cute" "-IC:\\Users\\Eu\\workspace\\Aeda Tp3\\boost" -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o "src\\Test.o" "..\\src\\Test.cpp" 
+In file included from ..\src\Test.cpp:5:0:
+..\src\grafo.h:148:1: error: invalid use of template-name 'Grafo' without an argument list
+ Grafo & Grafo<N,A>::inserirAresta(const N &inicio, const N &fim, const A &val){
+ ^~~~~
+..\src\grafo.h:35:7: note: 'template<class N, class A> class Grafo' declared here
+ class Grafo {
+       ^~~~~
+
+18:01:00 Build Finished (took 4s.797ms)
+

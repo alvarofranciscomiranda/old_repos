@@ -1,0 +1,64 @@
+19:42:55 **** Incremental Build of configuration Debug for project Caal ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ImportInfo.o" "..\\src\\ImportInfo.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Interface.o" "..\\src\\Interface.cpp" 
+..\src\Interface.cpp: In function 'void updateMap(Agency&)':
+..\src\Interface.cpp:277:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(size_t k = 0; k < agency.getDestinies()[i].getNumberOfDest(); k++){
+                       ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Interface.cpp: In function 'int flightReservation1(Agency&)':
+..\src\Interface.cpp:438:7: warning: variable 'dateEnd' set but not used [-Wunused-but-set-variable]
+  Date dateEnd = Date(dayE, monthE);
+       ^~~~~~~
+..\src\Interface.cpp: In function 'int flightReservation2(Agency&)':
+..\src\Interface.cpp:525:7: warning: variable 'dateEnd' set but not used [-Wunused-but-set-variable]
+  Date dateEnd = Date(dayE, monthE);
+       ^~~~~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ExportInfor.o" "..\\src\\ExportInfor.cpp" 
+..\src\ExportInfor.cpp: In function 'void exportInfoFlight2(int, std::vector<Accommodation*>, std::vector<std::__cxx11::basic_string<char> >, int)':
+..\src\ExportInfor.cpp:121:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < a.size(); i++){
+                 ~~^~~~~~~~~~
+..\src\ExportInfor.cpp:125:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < stops.size(); i++){
+                 ~~^~~~~~~~~~~~~~
+g++ -o Caal.exe "src\\graphviewer.o" "src\\connection.o" "src\\PossibleDestinies.o" "src\\Period.o" "src\\Interface.o" "src\\ImportInfo.o" "src\\ExportInfor.o" "src\\Destiny.o" "src\\Date.o" "src\\Coordinates.o" "src\\Clients.o" "src\\Algorithms.o" "src\\Agency.o" "src\\Accommodation.o" -lWsock32 
+Info: Nothing to build for Caal
+Info: Nothing to build for Caal
+Info: Nothing to build for Caal
+Info: Nothing to build for Caal
+Info: Nothing to build for Cal Fp05
+16:08:12 **** Incremental Build of configuration Debug for project CalFp01 ****
+Info: Internal Builder is used for build
+g++ -std=c++1y "-IC:\\Users\\Eu\\workspace\\CalFp01\\cute" "-IC:\\Users\\Eu\\workspace\\CalFp01\\boost" -O0 -g3 -pg -Wall -c -fmessage-length=0 -Wno-attributes -o "src\\Test.o" "..\\src\\Test.cpp" 
+g++ -std=c++1y "-IC:\\Users\\Eu\\workspace\\CalFp01\\cute" "-IC:\\Users\\Eu\\workspace\\CalFp01\\boost" -O0 -g3 -pg -Wall -c -fmessage-length=0 -Wno-attributes -o "src\\Sum.o" "..\\src\\Sum.cpp" 
+g++ -std=c++1y "-IC:\\Users\\Eu\\workspace\\CalFp01\\cute" "-IC:\\Users\\Eu\\workspace\\CalFp01\\boost" -O0 -g3 -pg -Wall -c -fmessage-length=0 -Wno-attributes -o "src\\Factorial.o" "..\\src\\Factorial.cpp" 
+g++ -std=c++1y "-IC:\\Users\\Eu\\workspace\\CalFp01\\cute" "-IC:\\Users\\Eu\\workspace\\CalFp01\\boost" -O0 -g3 -pg -Wall -c -fmessage-length=0 -Wno-attributes -o "src\\Change.o" "..\\src\\Change.cpp" 
+g++ -std=c++1y "-IC:\\Users\\Eu\\workspace\\CalFp01\\cute" "-IC:\\Users\\Eu\\workspace\\CalFp01\\boost" -O0 -g3 -pg -Wall -c -fmessage-length=0 -Wno-attributes -o "src\\Partitioning.o" "..\\src\\Partitioning.cpp" 
+..\src\Partitioning.cpp: In function 'int s_dynamic(int, int)':
+..\src\Partitioning.cpp:20:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while(k != 1 || k != n)
+  ^~~~~
+..\src\Partitioning.cpp:24:3: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'while'
+   n = n - 1;
+   ^
+g++ -pg -o CalFp01.exe "src\\Test.o" "src\\Sum.o" "src\\Partitioning.o" "src\\Factorial.o" "src\\Change.o" 
+Info: Nothing to build for CalFp01
+Info: Nothing to build for CalFp02
+16:09:52 **** Incremental Build of configuration Debug for project CalFp03 ****
+Info: Internal Builder is used for build
+g++ -std=c++1y "-IC:\\Users\\Eu\\workspace\\CalFp03\\cute" "-IC:\\Users\\Eu\\workspace\\CalFp03\\boost" -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o "src\\NearestPoints.o" "..\\src\\NearestPoints.cpp" 
+..\src\NearestPoints.cpp: In function 'void npByY(std::vector<Point>&, int, int, Result&)':
+..\src\NearestPoints.cpp:94:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for(int j = i + 1; j <= vp.size(); j++){
+                       ~~^~~~~~~~~~~~
+..\src\NearestPoints.cpp: In function 'Result np_DC(std::vector<Point>&, int, int, int)':
+..\src\NearestPoints.cpp:127:2: error: 'thread' was not declared in this scope
+  thread t([&](){
+  ^~~~~~
+..\src\NearestPoints.cpp:128:51: error: expected primary-expression before ')' token
+   resL = np_DC(vp, left, middle, numThreads / 2);});
+                                                   ^
+..\src\NearestPoints.cpp:130:3: error: 't' was not declared in this scope
+   t.join();
+   ^

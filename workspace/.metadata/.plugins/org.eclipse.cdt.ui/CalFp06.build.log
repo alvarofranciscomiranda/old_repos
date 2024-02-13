@@ -1,0 +1,25 @@
+17:19:46 **** Incremental Build of configuration Debug for project CalFp06 ****
+Info: Internal Builder is used for build
+g++ -std=c++1y "-IC:\\Users\\Eu\\workspace\\CalFp06\\cute" "-IC:\\Users\\Eu\\workspace\\CalFp06\\boost" -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o "src\\connection.o" "..\\src\\connection.cpp" 
+..\src\connection.cpp: In constructor 'Connection::Connection(short int)':
+..\src\connection.cpp:38:80: warning: format '%ld' expects argument of type 'long int', but argument 2 has type 'int' [-Wformat=]
+         printf("Client: socket() - Error at socket(): %ld\n", WSAGetLastError());
+                                                                                ^
+g++ -o CalFp06.exe "src\\graphviewer.o" "src\\connection.o" "src\\FichaJUNG.o" 
+src\connection.o: In function `ZN10ConnectionC2Es':
+C:\Users\Eu\workspace\CalFp06\Debug/../src/connection.cpp:31: undefined reference to `WSAStartup@8'
+C:\Users\Eu\workspace\CalFp06\Debug/../src/connection.cpp:36: undefined reference to `socket@12'
+C:\Users\Eu\workspace\CalFp06\Debug/../src/connection.cpp:38: undefined reference to `WSAGetLastError@0'
+C:\Users\Eu\workspace\CalFp06\Debug/../src/connection.cpp:39: undefined reference to `WSACleanup@0'
+C:\Users\Eu\workspace\CalFp06\Debug/../src/connection.cpp:46: undefined reference to `inet_addr@4'
+C:\Users\Eu\workspace\CalFp06\Debug/../src/connection.cpp:47: undefined reference to `htons@4'
+C:\Users\Eu\workspace\CalFp06\Debug/../src/connection.cpp:49: undefined reference to `connect@12'
+C:\Users\Eu\workspace\CalFp06\Debug/../src/connection.cpp:51: undefined reference to `WSACleanup@0'
+src\connection.o: In function `ZN10Connection7sendMsgENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE':
+C:\Users\Eu\workspace\CalFp06\Debug/../src/connection.cpp:57: undefined reference to `send@16'
+src\connection.o: In function `ZN10Connection8readLineB5cxx11Ev':
+C:\Users\Eu\workspace\CalFp06\Debug/../src/connection.cpp:68: undefined reference to `recv@16'
+collect2.exe: error: ld returned 1 exit status
+
+17:19:56 Build Finished (took 9s.915ms)
+
