@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;products.txt&apos; to &apos;Anex&apos;" description="Move &apos;products.txt&apos; to &apos;Anex&apos;" destination="/Anex" element1="/Project/products.txt" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1543749797945" updateReferences="true"/>
+</session>

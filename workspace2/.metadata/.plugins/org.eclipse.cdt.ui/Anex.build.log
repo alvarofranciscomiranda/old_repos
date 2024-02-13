@@ -1,0 +1,22 @@
+14:43:25 **** Rebuild of configuration Debug for project Anex ****
+Info: Internal Builder is used for build
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o Recipe.o "..\\Recipe.cpp" 
+In file included from ..\Recipe.cpp:1:0:
+..\Recipe.h: In constructor 'Recipe::Recipe(int, std::__cxx11::string, std::__cxx11::string)':
+..\Recipe.h:13:9: warning: 'Recipe::number' will be initialized after [-Wreorder]
+     int number;
+         ^~~~~~
+..\Recipe.h:12:12: warning:   'std::__cxx11::string Recipe::user' [-Wreorder]
+     string user, medic;
+            ^~~~
+..\Recipe.cpp:5:1: warning:   when initialized here [-Wreorder]
+ Recipe::Recipe(int number, string user, string medic) :number(number), user(user), medic(medic){
+ ^~~~~~
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o Sales.o "..\\Sales.cpp" 
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o Product.o "..\\Product.cpp" 
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o main.o "..\\main.cpp" 
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o Date.o "..\\Date.cpp" 
+g++ -o Anex.exe main.o Sales.o Recipe.o Product.o Date.o 
+
+14:43:35 Build Finished (took 9s.678ms)
+

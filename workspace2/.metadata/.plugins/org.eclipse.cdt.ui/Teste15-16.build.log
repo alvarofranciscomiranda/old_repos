@@ -1,0 +1,20 @@
+09:57:15 **** Incremental Build of configuration Debug for project Teste15-16 ****
+Info: Internal Builder is used for build
+g++ -std=c++1y "-IC:\\Users\\Eu\\workspace2\\Teste15-16\\cute" "-IC:\\Users\\Eu\\workspace2\\Teste15-16\\boost" -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o "src\\pizzeria.o" "..\\src\\pizzeria.cpp" 
+..\src\pizzeria.cpp:33:1: error: prototype for 'Menu::Menu(std::__cxx11::string, std::vector<std::__cxx11::basic_string<char> >)' does not match any in class 'Menu'
+ Menu::Menu(string n1, vector<string> is1): name(n1), ingredients(is1),likes(0){
+ ^~~~
+In file included from ..\src\pizzeria.cpp:8:0:
+..\src\pizzeria.h:20:7: error: candidates are: Menu::Menu(Menu&&)
+ class Menu {
+       ^~~~
+..\src\pizzeria.h:20:7: error:                 Menu::Menu(const Menu&)
+..\src\pizzeria.cpp:20:1: error:                 Menu::Menu(int, std::__cxx11::string, std::vector<std::__cxx11::basic_string<char> >, int)
+ Menu::Menu(int id1, string n1, vector<string> is1, int lks1) {
+ ^~~~
+..\src\pizzeria.cpp:14:1: error:                 Menu::Menu()
+ Menu::Menu() {
+ ^~~~
+
+09:57:16 Build Finished (took 1s.63ms)
+

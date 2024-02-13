@@ -1,0 +1,18 @@
+14:43:47 **** Rebuild of configuration Debug for project teste16-17 ****
+Info: Internal Builder is used for build
+g++ -std=c++1y "-IC:\\Users\\Eu\\workspace2\\teste16-17\\cute" "-IC:\\Users\\Eu\\workspace2\\teste16-17\\boost" -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o "src\\User.o" "..\\src\\User.cpp" 
+g++ -std=c++1y "-IC:\\Users\\Eu\\workspace2\\teste16-17\\cute" "-IC:\\Users\\Eu\\workspace2\\teste16-17\\boost" -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o "src\\ReadingClub.o" "..\\src\\ReadingClub.cpp" 
+..\src\ReadingClub.cpp: In member function 'void ReadingClub::setUserRecords(std::vector<UserRecord>&)':
+..\src\ReadingClub.cpp:76:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < urs.size(); i++) userRecords.insert(urs[i]);
+                 ~~^~~~~~~~~~~~
+g++ -std=c++1y "-IC:\\Users\\Eu\\workspace2\\teste16-17\\cute" "-IC:\\Users\\Eu\\workspace2\\teste16-17\\boost" -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o "src\\Test.o" "..\\src\\Test.cpp" 
+..\src\Test.cpp: In function 'void test_E_()':
+..\src\Test.cpp:169:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < urs2.size(); i++) {
+                 ~~^~~~~~~~~~~~~
+g++ -std=c++1y "-IC:\\Users\\Eu\\workspace2\\teste16-17\\cute" "-IC:\\Users\\Eu\\workspace2\\teste16-17\\boost" -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o "src\\Book.o" "..\\src\\Book.cpp" 
+g++ -o teste16-17.exe "src\\User.o" "src\\Test.o" "src\\ReadingClub.o" "src\\Book.o" 
+
+14:43:58 Build Finished (took 10s.385ms)
+

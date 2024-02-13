@@ -1,0 +1,150 @@
+#ifndef PRODUCT_H_
+#define PRODUCT_H_
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+class Product {
+
+protected:
+    string name, description, code;
+    float price, stock;
+
+public:
+    /**
+     	* Desconstructor of class Product.
+     	 */
+     virtual ~Product();
+
+     /**
+      * @return name
+     	*/
+     string getName() const;
+
+     /**
+     * @return code
+     	*/
+     string getCode() const;
+
+     /**
+     * @return price
+   	*/
+     float getPrice() const;
+
+     /**
+     * @return stock
+     	*/
+     float getStock() const;
+
+     /**
+     * @return description
+    */
+     string getDescription() const;
+
+     /**
+      * @brief Changes name.
+      * @param name
+      */
+     void setName(string name);
+
+     /**
+    * @brief Changes code.
+    * @param code
+    */
+     void setCode(string code);
+
+     /**
+      * @brief Changes price.
+      * @param price
+      */
+     void setPrice(float price);
+
+     /**
+     * @brief Changes stock.
+     * @param stock
+     */
+     void setStock(float stock);
+
+     /**
+      * @brief Changes description.
+      * @param address
+      */
+     void setDescription(string address);
+
+     /**
+     * @return product type
+     */
+ 	virtual string getTypeProduct() const = 0;
+
+ 	/**
+ 	 * @return total price
+ 	 */
+ 	virtual float getTotalPrice() const = 0;
+
+ 	/**
+ 	 * displays product info
+ 	*/
+ 	virtual void printProductInfo() const = 0;
+
+ 	/**
+ 	* displays Info about something
+ 	*/
+ 	virtual void printSimplifiedInfo(ostream & os) const = 0;
+
+ 	/**
+ 	 * displays file info
+ 	 */
+ 	virtual void printFileInfo(ostream & os) const = 0;
+
+     bool operator ==(const Product & c) const;
+
+};
+
+class Medicine : public Product{
+
+protected:
+    bool prescription, needed;
+    int discount;
+public:
+    ~Medicine();
+    Medicine(string product);
+    Medicine(string name, float stock, string code, float price, string description, bool prescription, bool needed, int discount);
+    bool getPrescription() const;
+    bool getNeeded() const;
+    int getDiscount() const;
+    void setPrescription(bool prescription);
+    void setNeeded(bool needed);
+    void setDiscount(int discount);
+
+    string getTypeProduct() const;
+    float getTotalPrice() const;
+    void printProductInfo() const;
+	void printSimplifiedInfo(ostream & os) const;
+	void printFileInfo(ostream & os) const;
+
+
+};
+
+
+
+class Other : public Product{
+
+protected:
+
+public:
+    ~Other();
+    Other(string product);
+    Other(string name, float stock, string code, float price, string description);
+
+    string getTypeProduct() const;
+    float getTotalPrice() const;
+    void printProductInfo() const;
+	void printSimplifiedInfo(ostream & os) const;
+	void printFileInfo(ostream & os) const;
+};
+
+
+
+#endif /* PRODUCT_H_ */

@@ -1,0 +1,39 @@
+21:47:47 **** Incremental Build of configuration Debug for project Tp2 ****
+Info: Internal Builder is used for build
+g++ -std=c++1y "-IC:\\Users\\Eu\\workspace2\\Tp2\\cute" "-IC:\\Users\\Eu\\workspace2\\Tp2\\boost" -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o "src\\Veiculo.o" "..\\src\\Veiculo.cpp" 
+In file included from ..\src\Veiculo.cpp:1:0:
+..\src\Veiculo.h: In constructor 'Motorizado::Motorizado(std::__cxx11::string, int, int, std::__cxx11::string, int)':
+..\src\Veiculo.h:25:8: warning: 'Motorizado::cilindrada' will be initialized after [-Wreorder]
+    int cilindrada;
+        ^~~~~~~~~~
+..\src\Veiculo.h:24:11: warning:   'std::__cxx11::string Motorizado::combustivel' [-Wreorder]
+    string combustivel;
+           ^~~~~~~~~~~
+..\src\Veiculo.cpp:17:1: warning:   when initialized here [-Wreorder]
+ Motorizado::Motorizado(string mc, int m, int a,string c,int cil)
+ ^~~~~~~~~~
+g++ -o Tp2.exe "src\\Veiculo.o" "src\\Test.o" "src\\Frota.o" 
+src\Veiculo.o: In function `ZN7VeiculoC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEii':
+C:\Users\Eu\workspace2\Tp2\Debug/../src/Veiculo.cpp:6: undefined reference to `vtable for Veiculo'
+src\Veiculo.o: In function `ZN10MotorizadoC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiiS5_i':
+C:\Users\Eu\workspace2\Tp2\Debug/../src/Veiculo.cpp:18: undefined reference to `vtable for Motorizado'
+src\Veiculo.o: In function `ZN9AutomovelC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiiS5_i':
+C:\Users\Eu\workspace2\Tp2\Debug/../src/Veiculo.cpp:27: undefined reference to `vtable for Automovel'
+src\Veiculo.o: In function `ZN6CamiaoC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiiS5_ii':
+C:\Users\Eu\workspace2\Tp2\Debug/../src/Veiculo.cpp:31: undefined reference to `vtable for Camiao'
+src\Veiculo.o: In function `ZN9BicicletaC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiiS5_':
+C:\Users\Eu\workspace2\Tp2\Debug/../src/Veiculo.cpp:36: undefined reference to `vtable for Bicicleta'
+src\Veiculo.o: In function `ZN7VeiculoD2Ev':
+C:\Users\Eu\workspace2\Tp2\Debug/../src/Veiculo.h:15: undefined reference to `vtable for Veiculo'
+src\Test.o: In function `ZN10MotorizadoD2Ev':
+C:\Users\Eu\workspace2\Tp2\Debug/../src/Veiculo.h:23: undefined reference to `vtable for Motorizado'
+src\Test.o: In function `ZN9AutomovelD1Ev':
+C:\Users\Eu\workspace2\Tp2\Debug/../src/Veiculo.h:33: undefined reference to `vtable for Automovel'
+src\Test.o: In function `ZN6CamiaoD1Ev':
+C:\Users\Eu\workspace2\Tp2\Debug/../src/Veiculo.h:40: undefined reference to `vtable for Camiao'
+src\Test.o: In function `ZN9BicicletaD1Ev':
+C:\Users\Eu\workspace2\Tp2\Debug/../src/Veiculo.h:48: undefined reference to `vtable for Bicicleta'
+collect2.exe: error: ld returned 1 exit status
+
+21:47:52 Build Finished (took 4s.713ms)
+

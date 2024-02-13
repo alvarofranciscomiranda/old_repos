@@ -1,0 +1,18 @@
+17:48:54 **** Incremental Build of configuration Debug for project 15-16 ****
+Info: Internal Builder is used for build
+g++ -std=c++1y "-IC:\\Users\\Eu\\workspace2\\15-16\\cute" "-IC:\\Users\\Eu\\workspace2\\15-16\\boost" -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o "src\\Test.o" "..\\src\\Test.cpp" 
+In file included from C:\Users\Eu\workspace2\15-16\cute/cute.h:25:0,
+                 from ..\src\Test.cpp:1:
+..\src\Test.cpp: In function 'void test_a()':
+..\src\Test.cpp:15:36: error: 'numberDifferent' was not declared in this scope
+  ASSERT_EQUAL(3, numberDifferent(v1));
+                                    ^
+C:\Users\Eu\workspace2\15-16\cute/cute_equals.h:225:75: note: in definition of macro 'ASSERT_EQUALM'
+ #define ASSERT_EQUALM(msg,expected,actual) cute::assert_equal((expected),(actual),\
+                                                                           ^~~~~~
+..\src\Test.cpp:15:2: note: in expansion of macro 'ASSERT_EQUAL'
+  ASSERT_EQUAL(3, numberDifferent(v1));
+  ^~~~~~~~~~~~
+
+17:48:55 Build Finished (took 1s.528ms)
+

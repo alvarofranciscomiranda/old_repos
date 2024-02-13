@@ -1,0 +1,57 @@
+01:55:00 **** Incremental Build of configuration Debug for project Feup-Aeda ****
+Info: Internal Builder is used for build
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o Product.o "..\\Product.cpp" 
+In file included from ..\Product.cpp:1:0:
+..\Product.h:36:5: error: 'Product::Product(std::__cxx11::string)' cannot be overloaded
+     Product(string product);
+     ^~~~~~~
+..\Product.h:15:5: error: with 'Product::Product(std::__cxx11::string)'
+     Product(string product);
+     ^~~~~~~
+..\Product.h: In constructor 'Product::Product(std::__cxx11::string, std::__cxx11::string, float, std::__cxx11::string)':
+..\Product.h:11:11: warning: 'Product::price' will be initialized after [-Wreorder]
+     float price;
+           ^~~~~
+..\Product.h:10:18: warning:   'std::__cxx11::string Product::description' [-Wreorder]
+     string name, description, code;
+                  ^~~~~~~~~~~
+..\Product.cpp:5:1: warning:   when initialized here [-Wreorder]
+ Product::Product(string name,string code, float price, string description) :name(name), code(code), price(price), description(description)
+ ^~~~~~~
+..\Product.cpp: In constructor 'Medicine::Medicine(std::__cxx11::string)':
+..\Product.cpp:56:34: error: no matching function for call to 'Product::Product()'
+ Medicine::Medicine(string product){
+                                  ^
+..\Product.cpp:5:1: note: candidate: Product::Product(std::__cxx11::string, std::__cxx11::string, float, std::__cxx11::string)
+ Product::Product(string name,string code, float price, string description) :name(name), code(code), price(price), description(description)
+ ^~~~~~~
+..\Product.cpp:5:1: note:   candidate expects 4 arguments, 0 provided
+..\Product.cpp:8:1: note: candidate: Product::Product(std::__cxx11::string)
+ Product::Product(string product){
+ ^~~~~~~
+..\Product.cpp:8:1: note:   candidate expects 1 argument, 0 provided
+In file included from ..\Product.cpp:1:0:
+..\Product.h:7:7: note: candidate: Product::Product(const Product&)
+ class Product {
+       ^~~~~~~
+..\Product.h:7:7: note:   candidate expects 1 argument, 0 provided
+..\Product.cpp: In constructor 'Other::Other(std::__cxx11::string)':
+..\Product.cpp:162:28: error: no matching function for call to 'Product::Product()'
+ Other::Other(string product){
+                            ^
+..\Product.cpp:5:1: note: candidate: Product::Product(std::__cxx11::string, std::__cxx11::string, float, std::__cxx11::string)
+ Product::Product(string name,string code, float price, string description) :name(name), code(code), price(price), description(description)
+ ^~~~~~~
+..\Product.cpp:5:1: note:   candidate expects 4 arguments, 0 provided
+..\Product.cpp:8:1: note: candidate: Product::Product(std::__cxx11::string)
+ Product::Product(string product){
+ ^~~~~~~
+..\Product.cpp:8:1: note:   candidate expects 1 argument, 0 provided
+In file included from ..\Product.cpp:1:0:
+..\Product.h:7:7: note: candidate: Product::Product(const Product&)
+ class Product {
+       ^~~~~~~
+..\Product.h:7:7: note:   candidate expects 1 argument, 0 provided
+
+01:55:01 Build Finished (took 920ms)
+

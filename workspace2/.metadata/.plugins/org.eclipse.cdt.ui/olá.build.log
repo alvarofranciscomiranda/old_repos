@@ -1,0 +1,13 @@
+17:48:59 **** Incremental Build of configuration Debug for project olá ****
+Info: Internal Builder is used for build
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:9:11: error: invalid conversion from 'int' to 'int*' [-fpermissive]
+  int *n = 1;
+           ^
+..\main.cpp:17:6: error: invalid conversion from 'int' to 'int*' [-fpermissive]
+  n = 7;
+      ^
+
+17:49:00 Build Finished (took 990ms)
+

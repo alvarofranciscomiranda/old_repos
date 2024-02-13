@@ -1,0 +1,21 @@
+17:48:56 **** Incremental Build of configuration Debug for project 3-1516 ****
+Info: Internal Builder is used for build
+g++ -std=c++1y "-IC:\\Users\\Eu\\workspace2\\3-1516\\cute" "-IC:\\Users\\Eu\\workspace2\\3-1516\\boost" -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o "src\\Restaurant.o" "..\\src\\Restaurant.cpp" 
+..\src\Restaurant.cpp: In member function 'void Restaurant::addDishes(unsigned int, std::__cxx11::string, TypeOfDish)':
+..\src\Restaurant.cpp:67:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i=0;i<n;i++)
+               ~^~
+..\src\Restaurant.cpp: In member function 'void Restaurant::clearTable(std::vector<Table>::size_type)':
+..\src\Restaurant.cpp:97:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i = 0; i < dishes.size(); i++){
+                 ~~^~~~~~~~~~~~~~~
+..\src\Restaurant.cpp: In member function 'void Restaurant::storeDryDishes(std::__cxx11::string, TypeOfDish)':
+..\src\Restaurant.cpp:110:1: error: missing template arguments before '}' token
+ }
+ ^
+..\src\Restaurant.cpp:107:22: warning: unused variable 'dry' [-Wunused-variable]
+  const list<Dish*>&  dry = getDrying();
+                      ^~~
+
+17:48:57 Build Finished (took 1s.294ms)
+

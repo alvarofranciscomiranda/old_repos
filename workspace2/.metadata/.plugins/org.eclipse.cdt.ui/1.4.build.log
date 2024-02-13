@@ -1,0 +1,19 @@
+17:48:52 **** Incremental Build of configuration Debug for project 1.4 ****
+Info: Internal Builder is used for build
+g++ -std=c++1y "-IC:\\Users\\Eu\\workspace2\\1.4\\cute" "-IC:\\Users\\Eu\\workspace2\\1.4\\boost" -O0 -g3 -Wall -c -fmessage-length=0 -Wno-attributes -o "src\\Test.o" "..\\src\\Test.cpp" 
+In file included from ..\src\Test.cpp:5:0:
+..\src\grafo.h:118:5: error: redefinition of 'int Grafo<N, A>::numArestas() const'
+ int Grafo<N,A>::numArestas(void) const{
+     ^~~~~~~~~~
+..\src\grafo.h:108:5: note: 'int Grafo<N, A>::numArestas() const' previously declared here
+ int Grafo<N,A>::numArestas(void) const{
+     ^~~~~~~~~~
+..\src\grafo.h:128:1: error: invalid use of template-name 'Grafo' without an argument list
+ Grafo & Grafo<N,A>::inserirAresta(const N &inicio, const N &fim, const A &val){
+ ^~~~~
+..\src\grafo.h:34:7: note: 'template<class N, class A> class Grafo' declared here
+ class Grafo {
+       ^~~~~
+
+17:48:54 Build Finished (took 1s.706ms)
+

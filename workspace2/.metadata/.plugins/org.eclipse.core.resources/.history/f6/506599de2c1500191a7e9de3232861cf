@@ -1,0 +1,30 @@
+#include <iostream>
+#include <algorithm>
+#include "Interfaces.h"
+#include "Company.h"
+
+using namespace std;
+
+int main() {
+
+    Company comp;
+
+    comp.openPharmacyFile();
+    comp.openEmployeesFile();
+    comp.openClientsFile();
+    comp.openProductsFile();
+    comp.openRecipesFile();
+    comp.openSalesFile();
+    comp.addProductsQueue();
+
+    cout << comp.productsStocks.top()->getDescription();
+
+    string ola;
+    cin >> ola;
+
+    ClearScreen();
+
+    mainMenu(comp);
+
+    return 0;
+}
