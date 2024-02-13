@@ -1,0 +1,121 @@
+14:11:02 **** Incremental Build of configuration Debug for project Aeda ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\Eu\\eclipse-workspace\\Aeda\\cute" "-IC:\\Users\\Eu\\eclipse-workspace\\Aeda\\boost" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+Cannot run program "g++": Launching failed
+
+Error: Program "g++" not found in PATH
+PATH=[\bin;\bin;\usr\bin;C:/Program Files/Java/jre1.8.0_144/bin/server;C:/Program Files/Java/jre1.8.0_144/bin;C:/Program Files/Java/jre1.8.0_144/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\Eu\AppData\Local\Microsoft\WindowsApps;;C:\Users\Eu\Desktop]
+
+14:11:13 **** Incremental Build of configuration Debug for project Aed ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\Eu\\eclipse-workspace\\Aed\\cute" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+Cannot run program "g++": Launching failed
+
+Error: Program "g++" not found in PATH
+PATH=[\bin;\bin;\usr\bin;C:/Program Files/Java/jre1.8.0_144/bin/server;C:/Program Files/Java/jre1.8.0_144/bin;C:/Program Files/Java/jre1.8.0_144/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\Eu\AppData\Local\Microsoft\WindowsApps;;C:\Users\Eu\Desktop]
+
+14:11:14 **** Incremental Build of configuration Debug for project Aeda ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\Eu\\eclipse-workspace\\Aeda\\cute" "-IC:\\Users\\Eu\\eclipse-workspace\\Aeda\\boost" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+Cannot run program "g++": Launching failed
+
+Error: Program "g++" not found in PATH
+PATH=[\bin;\bin;\usr\bin;C:/Program Files/Java/jre1.8.0_144/bin/server;C:/Program Files/Java/jre1.8.0_144/bin;C:/Program Files/Java/jre1.8.0_144/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\Eu\AppData\Local\Microsoft\WindowsApps;;C:\Users\Eu\Desktop]
+
+14:11:30 **** Incremental Build of configuration Debug for project Aed ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\Eu\\eclipse-workspace\\Aed\\cute" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+Cannot run program "g++": Launching failed
+
+Error: Program "g++" not found in PATH
+PATH=[\bin;\bin;\usr\bin;C:/Program Files/Java/jre1.8.0_144/bin/server;C:/Program Files/Java/jre1.8.0_144/bin;C:/Program Files/Java/jre1.8.0_144/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\Eu\AppData\Local\Microsoft\WindowsApps;;C:\Users\Eu\Desktop]
+
+14:11:30 **** Incremental Build of configuration Debug for project Aeda ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\Eu\\eclipse-workspace\\Aeda\\cute" "-IC:\\Users\\Eu\\eclipse-workspace\\Aeda\\boost" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+Cannot run program "g++": Launching failed
+
+Error: Program "g++" not found in PATH
+PATH=[\bin;\bin;\usr\bin;C:/Program Files/Java/jre1.8.0_144/bin/server;C:/Program Files/Java/jre1.8.0_144/bin;C:/Program Files/Java/jre1.8.0_144/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\Eu\AppData\Local\Microsoft\WindowsApps;;C:\Users\Eu\Desktop]
+
+14:12:52 **** Incremental Build of configuration Debug for project Aeda ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\Eu\\eclipse-workspace\\Aeda\\cute" "-IC:\\Users\\Eu\\eclipse-workspace\\Aeda\\boost" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+Cannot run program "g++": Launching failed
+
+Error: Program "g++" not found in PATH
+PATH=[\bin;\bin;\usr\bin;C:/Program Files/Java/jre1.8.0_144/bin/server;C:/Program Files/Java/jre1.8.0_144/bin;C:/Program Files/Java/jre1.8.0_144/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\Eu\AppData\Local\Microsoft\WindowsApps;;C:\Users\Eu\Desktop]
+
+14:14:14 **** Incremental Build of configuration Debug for project Aeda ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\Eu\\eclipse-workspace\\Aeda\\cute" "-IC:\\Users\\Eu\\eclipse-workspace\\Aeda\\boost" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+Cannot run program "g++": Launching failed
+
+Error: Program "g++" not found in PATH
+PATH=[\bin;\bin;\usr\bin;C:/Program Files/Java/jre1.8.0_144/bin/server;C:/Program Files/Java/jre1.8.0_144/bin;C:/Program Files/Java/jre1.8.0_144/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\Eu\AppData\Local\Microsoft\WindowsApps;;C:\Users\Eu\Desktop]
+
+15:05:55 **** Rebuild of configuration Debug for project hjkkj ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\Eu\\eclipse-workspace\\hjkkj\\cute" "-IC:\\Users\\Eu\\eclipse-workspace\\hjkkj\\boost" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+g++ -o hjkkj.exe "src\\Test.o" 
+15:06:03 **** Rebuild of configuration Debug for project jlnm ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\Eu\\eclipse-workspace\\jlnm\\cute" "-IC:\\Users\\Eu\\eclipse-workspace\\jlnm\\boost" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parque.o" "..\\src\\Parque.cpp" 
+g++ "-IC:\\Users\\Eu\\eclipse-workspace\\jlnm\\cute" "-IC:\\Users\\Eu\\eclipse-workspace\\jlnm\\boost" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+g++ -o jlnm.exe "src\\Parque.o" "src\\Test.o" 
+Info: Nothing to build for hjkkj
+15:10:29 **** Incremental Build of configuration Debug for project jlnm ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\Eu\\eclipse-workspace\\jlnm\\cute" "-IC:\\Users\\Eu\\eclipse-workspace\\jlnm\\boost" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parque.o" "..\\src\\Parque.cpp" 
+g++ -o jlnm.exe "src\\Parque.o" "src\\Test.o" 
+15:11:41 **** Incremental Build of configuration Debug for project jlnm ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\Eu\\eclipse-workspace\\jlnm\\cute" "-IC:\\Users\\Eu\\eclipse-workspace\\jlnm\\boost" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+g++ -o jlnm.exe "src\\Parque.o" "src\\Test.o" 
+src\Test.o: In function `Z19test_1a_AbrirParquev':
+C:\Users\Eu\eclipse-workspace\jlnm\Debug/../src/Test.cpp:11: undefined reference to `ParqueEstacionamento::getNumLugares() const'
+C:\Users\Eu\eclipse-workspace\jlnm\Debug/../src/Test.cpp:13: undefined reference to `ParqueEstacionamento::getNumMaximoClientes() const'
+collect2.exe: error: ld returned 1 exit status
+15:30:11 **** Rebuild of configuration Debug for project hjkkj ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\Eu\\eclipse-workspace\\hjkkj\\cute" "-IC:\\Users\\Eu\\eclipse-workspace\\hjkkj\\boost" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+g++ -o hjkkj.exe "src\\Test.o" 
+15:30:13 **** Rebuild of configuration Debug for project jlnm ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\Eu\\eclipse-workspace\\jlnm\\cute" "-IC:\\Users\\Eu\\eclipse-workspace\\jlnm\\boost" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Parque.o" "..\\src\\Parque.cpp" 
+g++ "-IC:\\Users\\Eu\\eclipse-workspace\\jlnm\\cute" "-IC:\\Users\\Eu\\eclipse-workspace\\jlnm\\boost" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Test.o" "..\\src\\Test.cpp" 
+g++ -o jlnm.exe "src\\Parque.o" "src\\Test.o" 
+src\Test.o: In function `Z19test_1a_AbrirParquev':
+C:\Users\Eu\eclipse-workspace\jlnm\Debug/../src/Test.cpp:11: undefined reference to `ParqueEstacionamento::getNumLugares() const'
+C:\Users\Eu\eclipse-workspace\jlnm\Debug/../src/Test.cpp:13: undefined reference to `ParqueEstacionamento::getNumMaximoClientes() const'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for hjkkj
+15:30:30 **** Incremental Build of configuration Debug for project jlnm ****
+Info: Internal Builder is used for build
+g++ -o jlnm.exe "src\\Parque.o" "src\\Test.o" 
+src\Test.o: In function `Z19test_1a_AbrirParquev':
+C:\Users\Eu\eclipse-workspace\jlnm\Debug/../src/Test.cpp:11: undefined reference to `ParqueEstacionamento::getNumLugares() const'
+C:\Users\Eu\eclipse-workspace\jlnm\Debug/../src/Test.cpp:13: undefined reference to `ParqueEstacionamento::getNumMaximoClientes() const'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for hjkkj
+15:31:42 **** Build of configuration Debug for project Cal_TP1 ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Program Files/Java/jre1.8.0_144/bin/server;C:/Program Files/Java/jre1.8.0_144/bin;C:/Program Files/Java/jre1.8.0_144/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\Eu\AppData\Local\Microsoft\WindowsApps;;C:\Users\Eu\Desktop]
+Info: Nothing to build for hjkkj
+15:31:44 **** Incremental Build of configuration Debug for project jlnm ****
+Info: Internal Builder is used for build
+g++ -o jlnm.exe "src\\Parque.o" "src\\Test.o" 
+src\Test.o: In function `Z19test_1a_AbrirParquev':
+C:\Users\Eu\eclipse-workspace\jlnm\Debug/../src/Test.cpp:11: undefined reference to `ParqueEstacionamento::getNumLugares() const'
+C:\Users\Eu\eclipse-workspace\jlnm\Debug/../src/Test.cpp:13: undefined reference to `ParqueEstacionamento::getNumMaximoClientes() const'
+collect2.exe: error: ld returned 1 exit status

@@ -1,0 +1,9 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Aeda Debug (1),org.eclipse.launchbar.core.descriptorType.default\:Aeda Debug,org.eclipse.launchbar.core.descriptorType.default\:jlnm Debug,org.eclipse.launchbar.core.descriptorType.default\:jlnm.exe,org.eclipse.launchbar.core.descriptorType.default\:hjkkj.exe
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Aeda\ Debug\ (1)/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Aeda\ Debug\ (1)/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:jlnm.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:jlnm.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

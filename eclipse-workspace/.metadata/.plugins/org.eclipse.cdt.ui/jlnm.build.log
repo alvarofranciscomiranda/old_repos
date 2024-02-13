@@ -1,0 +1,10 @@
+15:31:44 **** Incremental Build of configuration Debug for project jlnm ****
+Info: Internal Builder is used for build
+g++ -o jlnm.exe "src\\Parque.o" "src\\Test.o" 
+src\Test.o: In function `Z19test_1a_AbrirParquev':
+C:\Users\Eu\eclipse-workspace\jlnm\Debug/../src/Test.cpp:11: undefined reference to `ParqueEstacionamento::getNumLugares() const'
+C:\Users\Eu\eclipse-workspace\jlnm\Debug/../src/Test.cpp:13: undefined reference to `ParqueEstacionamento::getNumMaximoClientes() const'
+collect2.exe: error: ld returned 1 exit status
+
+15:31:44 Build Finished (took 792ms)
+
